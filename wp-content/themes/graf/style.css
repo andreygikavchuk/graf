@@ -1,0 +1,149 @@
+.news-item .image > img {
+    height: auto;
+}
+.pagination ul span.active {
+    color: #b7965b;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "RalewayBold";
+}
+.subscribe .inline-form .btn {
+    width: 170px;
+}
+.subscribe .ajax-loader {
+    display: none;
+}
+.gallery-item img {
+    height: auto;
+}
+.top-page-preview {
+    top: -45px;
+}
+div.wpcf7-response-output {
+   color: #fff;
+}
+.content-item i.sprite {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.screen-reader-response {
+    display: none;
+}
+.top-page-preview .position-wrap .description .body ol li > strong {
+    float: right;
+}
+.breadcrumbs {
+    z-index: 11;
+}
+.overlay {
+    height: auto;
+}
+.btn-regular {
+  border: 1px solid transparent;
+}
+.modal-dialog .wpcf7-submit {
+    border: 2px solid #b7965b;
+    width: 100%;
+    padding: 0;
+    display: block;
+    height: 40px;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+
+.modal-dialog .input input, .modal-dialog .input textarea {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    height: 40px;
+}
+.modal-dialog .input {
+    margin: 0;
+}
+.modal-dialog .row > div {
+    padding: 0 5px;
+}
+/*div.wpcf7-response-output {*/
+    /*color: #000;*/
+/*}*/
+span.wpcf7-not-valid-tip {
+    margin-top: 10px;
+}
+img.alignleft  {
+    float: left;
+    margin-right: 15px;
+}
+img.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.modal-dialog .modal-form .form_check {
+    display: block;
+    width: 100%;
+    padding: 0;
+    height: 40px;
+    line-height: 36px;
+    font-size: 14px;
+}
+.inst_logo {
+    background: url("assets/img/instagram.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+    display: none !important;
+}
+.hide_input {
+    display: none;
+}
+.mobile-select .link {
+    display: table;
+    margin: 20px auto;
+    color: #b7965f;
+    text-decoration: none;
+    line-height: 47px;
+    padding-left: 56px;
+    background: url("assets/img/pdf_logo.png") no-repeat;
+    background-position: 0 center;
+}
+@media (max-width: 1199px) {
+    .plans .overlay-outer {
+        background: none;
+    }
+}
+@media (min-width: 992px) {
+.subscribe .btn-transparent {
+    padding: 11px 0px;
+    text-align: center;
+}
+
+}
+@media (max-width: 992px) {
+.modal-dialog {
+    top: 120px;
+    position: absolute;
+    width: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.modal-dialog .modal-content-wrap {
+    padding: 0 0 30px 0;
+    width: 100%;
+}
+ }
+body {
+    padding: 0 !important;
+}
+.subscribe div.wpcf7 img.ajax-loader {
+    display: block;
+    bottom: 0;
+    position: absolute;
+}
+.modal-backdrop.fade {
+    display: none;
+}

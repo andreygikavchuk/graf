@@ -1,0 +1,122 @@
+
+/*html {*/
+/*min-height: 100%;*/
+/*}*/
+body {
+    /*min-height: 100%;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+    font-family: 'PT Sans', sans-serif;
+}
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/graf_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.wrapper_inner {
+    display: table-row;
+    width: 100%;
+}
+.spacer,
+.side {
+    display: table-cell;
+
+    /*position: absolute;*/
+    /*height: 100%;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+
+    /*z-index: 2;*/
+}
+.spacer {
+    width: 60%;
+}
+.side {
+    background-image: url(../images/side_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 40%;
+    vertical-align: top;
+}
+@media screen and (max-width: 980px) {
+    html,
+    body {
+        height: auto;
+    }
+    .spacer {
+        display: none;
+    }
+    .wrapper {
+        background-image: url(../images/graf_tablet_bg.jpg);
+        display: block;
+        height: 100%;
+    }
+    .wrapper_inner {
+        display: block;
+        height: 100%;
+    }
+    .side {
+        padding-top: 70%;
+        /*position: absolute;*/
+
+        /*top: 0;*/
+        /*left: 0;*/
+        /*bottom: 0;*/
+        width: 100%;
+        background: none;
+        /*background-size: cover;*/
+        /*background-position: center top;*/
+        /*z-index: 2;*/
+    }
+}
+.logo {
+    text-align: center;
+    padding: 20px 0 20px;
+}
+.text {
+    padding: 0 20px;
+    color: #b7965f;
+    text-align: center;
+    font-size: 18px;
+}
+.link {
+    display: table;
+    margin: 20px auto;
+    color: #b7965f;
+    text-decoration: none;
+    line-height: 47px;
+    padding-left: 56px;
+    background: url(../images/pdf_logo.png) no-repeat;
+    background-position: 0 center;
+}
+.ig,
+.fb {
+    width: 30px;
+    height: 40px;
+    padding: 0 10px 10px;
+    margin-top: -10px;
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ig {
+    background-image: url(../images/ig_gold.png);
+}
+.fb {
+    background-image: url(../images/fb_gold.png);
+}
+

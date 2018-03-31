@@ -1,0 +1,23 @@
+footer{
+    .top-line{
+        background: #0c0909;
+    }
+    .bottom-line{
+        background: #000;
+        text-align: center;
+        padding: 10px 0;
+        @media(min-width: 768px){
+            padding: 25px 0;
+        }
+        @media(min-width: 992px){
+            padding: 35px 0;
+        }
+        p{
+            color: #999;
+        }
+        p,a{
+            line-height: 24px;
+            margin: 0;
+        }
+    }
+}

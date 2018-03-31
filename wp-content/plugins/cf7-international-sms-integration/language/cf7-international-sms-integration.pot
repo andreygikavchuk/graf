@@ -1,0 +1,184 @@
+# Copyright (C) 2016 Contact Form 7 International  SMS integration
+# This file is distributed under the same license as the Contact Form 7 International  SMS integration package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 International  SMS integration 0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cf7-international-sms-integration\n"
+"POT-Creation-Date: 2016-09-04 01:51:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-admin-init.php:26 admin/class-admin-init.php:27
+msgid "International Sms Integration"
+msgstr ""
+
+#: admin/class-admin-init.php:103 template/cf7-conf-header.php:5
+msgid "Settings"
+msgstr ""
+
+#: admin/class-admin-init.php:104
+msgid "F.A.Q"
+msgstr ""
+
+#: admin/class-admin-init.php:105
+msgid "View On Github"
+msgstr ""
+
+#: admin/class-admin-init.php:106
+msgid "Report Issue"
+msgstr ""
+
+#: admin/class-admin-init.php:107
+msgid "Donate"
+msgstr ""
+
+#: admin/class-admin-init.php:108
+msgid "Contact Author"
+msgstr ""
+
+#: admin/class-contact-form-integration.php:41
+msgid "Interntional SMS"
+msgstr ""
+
+#: admin/class-table-listing.php:21
+msgid "Delete"
+msgstr ""
+
+#: admin/class-table-listing.php:38
+msgid "By Form"
+msgstr ""
+
+#: admin/class-table-listing.php:39
+msgid "To Mobile"
+msgstr ""
+
+#: admin/class-table-listing.php:40
+msgid "Message"
+msgstr ""
+
+#: admin/class-table-listing.php:41
+msgid "Response"
+msgstr ""
+
+#: admin/class-table-listing.php:42
+msgid "Sent Date"
+msgstr ""
+
+#: admin/class-table-listing.php:43
+msgid "SMS To"
+msgstr ""
+
+#: admin/class-table-listing.php:117
+msgid "Empty History"
+msgstr ""
+
+#: admin/class-table-listing.php:120
+msgid "Are You Sure Want To Empty SMS History ?"
+msgstr ""
+
+#: contact-form-7-sms-integration.php:61
+msgid "Adds an SMS box to your Contact Form 7 options pages, fill this in and you'll get a text message each time somebody fills out one of your forms"
+msgstr ""
+
+#: contact-form-7-sms-integration.php:148
+msgid "Contact Form 7 SMS Integration"
+msgstr ""
+
+#: includes/class-activation.php:118
+msgid "Change Log"
+msgstr ""
+
+#: includes/class-activation.php:129
+msgid " Download's so far. help use reach more audience by sharing"
+msgstr ""
+
+#: template/cf7-conf-header.php:5
+msgid "History"
+msgstr ""
+
+#: template/cf7-settings.php:5
+msgid "SMS Service API"
+msgstr ""
+
+#: template/cf7-settings.php:6
+msgid "Usable Codes : "
+msgstr ""
+
+#: template/cf7-template.php:2
+msgid "Admin SMS Notifications"
+msgstr ""
+
+#: template/cf7-template.php:4 template/cf7-template.php:35
+msgid "In the following fields, you can use these tags:"
+msgstr ""
+
+#: template/cf7-template.php:12
+msgid "To:"
+msgstr ""
+
+#: template/cf7-template.php:16
+msgid "<small>Enter Numbers By <code>,</code> for multiple</small>"
+msgstr ""
+
+#: template/cf7-template.php:22 template/cf7-template.php:53
+msgid "Message body:"
+msgstr ""
+
+#: template/cf7-template.php:33
+msgid "Visitor SMS Notifications"
+msgstr ""
+
+#: template/cf7-template.php:43
+msgid "Visitor Mobile: "
+msgstr ""
+
+#: template/cf7-template.php:47
+msgid "<small>Use <b>CF7 Tags</b> To Get Visitor Mobile Number | Enter Numbers By <code>,</code> for multiple</small>"
+msgstr ""
+
+#: template/welcome-page.php:73
+msgid "Subscribe to our mailing list"
+msgstr ""
+
+#: template/welcome-page.php:86
+msgid "Email Address"
+msgstr ""
+
+#: template/welcome-page.php:94
+msgid "First Name"
+msgstr ""
+
+#: template/welcome-page.php:100
+msgid "Last Name"
+msgstr ""
+
+#: template/welcome-page.php:106
+msgid "Website"
+msgstr ""
+
+#: template/welcome-page.php:115
+msgid "Country"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Contact Form 7 International  SMS integration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/contact-form-7-sms-integration"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Contact Form 7 International  SMS integration"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Varun Sridharan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://varunsridharan.in"
+msgstr ""

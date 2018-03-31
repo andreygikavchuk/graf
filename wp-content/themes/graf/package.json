@@ -1,0 +1,26 @@
+{
+  "name": "pid.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.5",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.8",
+    "imagemin-pngquant": "^5.0.0",
+    "postcss-assets": "^4.1.0"
+  },
+  "devDependencies": {
+    "gulp-concat-css": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

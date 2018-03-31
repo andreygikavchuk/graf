@@ -1,0 +1,127 @@
+.btn{
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    font-family: $ralewayBold;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 22px;
+    vertical-align: top;
+    transition: all .3s ease;
+    @media(min-width: 992px){
+        font-size: 16px;
+    }
+}
+
+.btn-transparent{
+    border: 2px solid rgba(#fff, .44);
+    background: transparent;
+    padding: 6px 20px;
+    @media(min-width: 992px){
+        padding: 11px 27px;
+    }
+    &:focus,
+    &:active,
+    &:hover{
+        text-decoration: none !important;
+        color: #fff;
+        background: $baseBg;
+        border: 2px solid $baseBg;
+    }
+}
+.btn-regular{
+    border: 2px solid $baseBg;
+    background: $baseBg;
+    padding: 6px 25px;
+    @media(min-width: 992px){
+        padding: 11px 35px;
+    }
+    &:focus,
+    &:active,
+    &:hover{
+        text-decoration: none;
+        color: $baseBg;
+        background: transparent;
+    }
+}
+
+.btn-link{
+    color: $baseBg;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    font-family: $ralewayBold;
+    display: inline-block;
+    position: relative;
+    padding: 0 35px 0 0;
+    i{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin: -5px 0 0 0;
+        transition: all .3s ease;
+    }
+    &:active,
+    &:hover{
+        i{
+            transform: translateX(5px);
+        }
+    }
+}
+
+.btn-toggle{
+    transition: all .3s ease;
+    padding: 7px;
+    float: right;
+    position: relative;
+    z-index: 100;
+    @media(min-width: 992px){
+        display: none;
+    }
+    & > span{
+        display: block;
+        background: #fff;
+        width: 30px;
+        height: 3px;
+        transition: all .3s ease;
+        &.sp-2{
+            margin: 5px 0;
+        }
+    }
+    &.active{
+        position: fixed;
+        right: 15px;
+        top: 20px;
+        z-index: 100;
+        background: transparent!important;
+        & > span{
+            background: $baseBg;
+            &.sp-2{
+                opacity: 0;
+            }
+            &.sp-1{
+                transform: translateY(8px) rotate(45deg);
+            }
+            &.sp-3{
+                transform: translateY(-8px) rotate(-45deg);
+            }
+        }
+    }
+}
+
+.fixed-top{
+    .btn-toggle.active{
+        top: 10px;
+    }
+}
+
+.static-header{
+    .btn-toggle.active{
+        top: 10px !important;
+    }
+}

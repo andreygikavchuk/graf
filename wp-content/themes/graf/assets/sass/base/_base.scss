@@ -1,0 +1,107 @@
+h1,h2{
+    font-family: $headingsBold;
+    text-transform: uppercase;
+    color: #b7965b;
+    & > span{
+        color: #fff;
+        display: block;
+    }
+}
+h1{
+    font-size: 24px;
+}
+@media(min-width: 321px){
+    h1{
+        font-size: 28px;
+    }
+}
+@media(min-width: 768px){
+    h1{
+        font-size: 36px;
+    }
+}
+@media(min-width: 992px){
+    h1{
+        font-size: 48px;
+    }
+}
+
+
+h2{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+@media(min-width: 768px){
+    h2{
+        font-size: 30px;
+        margin: 10px 0 25px 0;
+    }
+}
+@media(min-width: 992px){
+    h2{
+        font-size: 36px;
+        margin: 18px 0 35px 0;
+    }
+}
+
+h3{
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: $ralewayBold;
+    @media(min-width: 992px){
+        font-size: 26px;
+    }
+}
+
+p{
+    font-size: 14px;
+    line-height: 18px;
+    margin: 15px 0;
+    @media(min-width: 992px){
+        font-size: 16px;
+        line-height: 24px;
+        margin: 20px 0;
+    }
+    & > strong{
+        font-family: $ralewayBold;
+    }
+}
+
+a:not(.btn){
+    color: $baseBg;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    @media(min-width: 992px){
+        font-size: 16px;
+    }
+    &:hover{
+        color: $baseBg;
+        text-decoration: none;
+    }
+}
+
+ul{
+    padding: 0 0 0 15px;
+    li{
+        @extend p;
+        margin: 0;
+        color: #666;
+        position: relative;
+        padding: 0 0 0 15px;
+        margin: 4px 0;
+        &:before{
+            content:'';
+            display: block;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: $baseBg;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin: -3px 0 0 0;
+        }
+    }
+}

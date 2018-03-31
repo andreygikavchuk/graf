@@ -1,0 +1,158 @@
+/** ============================
+    layout_basic_styles
+    ======================== **/
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html { 
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	width: 100%;
+	// height: 100%;
+	font-size: 16px;
+	line-height: 1;
+    font-family: $ralewayRegular;
+    opacity: 0;
+    transition: opacity .5s ease;
+    &.loaded{
+        opacity: 1;
+    }
+    &.dark-page{
+        background: #1a1616;
+    }
+    &.disable-hover {
+        pointer-events: none;
+    }
+}
+
+.container-fluid{
+    max-width: 1170px;
+}
+
+.page{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    overflow: hidden;
+}
+
+.table{
+    display: table;
+    width: 100%;
+}
+
+.table-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+// .wrapper {
+// 	margin: 0 auto;
+// 	height: auto !important;
+// 	min-height: 100%;
+// }
+//
+// section {
+// 	// @extend %clearfix;
+// 	width: auto;
+// 	min-height: 1px;
+// 	position: relative;
+// }
+//
+// .inline-block {
+// 	display: inline-block;
+// 	*display: inline;
+// 	zoom: 1;
+// 	vertical-align: middle;
+// }
+// %clearfix {
+// 	*zoom: 1;
+// 	&:before, &:after {
+// 		content: " ";
+// 		display: table;
+// 	}
+// 	&:after {
+// 		clear: both;
+// 	}
+// }
+// .alignleft {
+// 	display: inline;
+// 	float: left;
+// }
+//
+// .alignright {
+// 	display: inline;
+// 	float: right;
+// }
+//
+// .aligncenter {
+// 	clear: both;
+// 	display: block;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// }
+//
+// .txtleft {
+// 	text-align: left;
+// }
+//
+// .txtright {
+// 	text-align: right;
+// }
+//
+// .hide {
+// 	opacity: 0;
+// }
+// .wow{
+// 	visibility: hidden;
+// }
+// .div-table{
+// 	display: table;
+// 	width: 100%;
+// 	height: 100%;
+// 	&-cell{
+// 		width: 100%;
+// 		height: 100%;
+// 		display: table-cell;
+// 		vertical-align: middle;
+// 	}
+// }
+// .table{
+// 	display: table;
+// 	table-layout: fixed;
+// 	width: 100%;
+// 	height: 100%;
+// 	&-cell{
+// 		width: 100%;
+// 		height: 100%;
+// 		display: table-cell;
+// 		vertical-align: middle;
+// 	}
+// }
+// .screen100{
+// 	//min-height: 480px;
+// 	height: 100vh;
+// }
+// %absolute{
+// 	position: absolute;
+// 	right: 0;
+// 	bottom: 0;
+// 	top: 0;
+// 	left: 0;
+// 	width: 100%;
+// 	height: 100%;
+// 	z-index: 1;
+// }
+// .flex{
+// 	display: flex;
+//
+// }
