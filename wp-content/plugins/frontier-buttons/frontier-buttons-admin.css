@@ -1,0 +1,175 @@
+
+#frontier-buttons-settings-menu {
+    background: white;
+    padding: 5px;
+}
+
+.f-b-source-buttons {
+	width:95%;
+	height:120px;
+	padding:3px 10px;
+	border:1px solid #aaaaaa;
+	float: left;
+	margin: 3px;
+}
+
+
+.f-b-toolbar {
+	width:95%;
+	height:70px;
+	padding:3px 10px;
+	border:1px solid #aaaaaa;
+	float: left;
+	margin: 3px;
+}
+
+
+.f-b-button {
+	max-width: 120px;
+	font-size: 0.9em;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border: none;
+	border-radius: 2px;
+	float: left;
+	margin: 2px 2px;
+	background-color: whitesmoke;
+}
+
+.f-b-button-icon {
+	/*vertical-align: middle !important;*/
+}
+
+.frontier-buttons-setting-menu {
+    background-color: white;
+    border-spacing: 12px;
+    /* border: 1px solid black; */
+}
+
+.frontier-buttons-menu-item {
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px 15px;
+    padding: 8px;
+    text-align: center;
+}
+
+.frontier-buttons-menu-link {
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.frontier-buttons-menu-item-selected {
+	background-color: blue !important;
+	color: white !important;
+}
+.frontier-buttons-left-column {
+	background-color: white;
+	vertical-align: top;
+	width: 160px;
+	text-align: -moz-center;
+}
+
+table.fbut-extra-buttons {
+	padding: 2px 12px;
+}
+
+th.frontier-buttons-table-heading {
+	font-size: 1.1em;
+	text-align: left;
+	padding: 2px 12px;
+}
+
+
+td.fbut-extra-buttons {
+	/*border: 1px solid black;*/
+	text-align: left;
+	padding: 2px 12px;
+}
+
+
+.frontier-buttons-right-column {
+	background-color: white;
+	vertical-align: top;
+}
+
+fieldset.frontier-buttons-module {
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 5px;
+	margin 10px;
+	vertical-align: top;
+
+}
+
+legend.frontier-buttons-module {
+    font-size: 1.2em !important;
+}
+
+
+#frontier-buttons-submit  {
+	margin: 1px 10px;
+}
+
+#frontier-buttons-reset  {
+	margin: 1px 10px;
+}
+
+
+.frontier-buttons-heading {
+    /*font-size: 1.9em;*/
+    text-align: center;
+}
+
+.frontier-buttons-main-table {
+    width: 99%;
+}
+
+.frontier-buttons-sample-editor {
+	border: 1px solid black;
+	border-radius: 8px;
+	width: 95%;
+	padding: 10px;
+	margin: 5px;
+	background: white;
+}
+
+td.frontier-buttons-settings-editors {
+    padding: 2px 10px;
+    border: 1px solid darkgrey;
+}
+
+td.frontier-buttons-table-heading {
+    padding: 2px 10px;
+    border: 1px solid darkgrey;
+    font-weight: bold;
+}
+
+.frontier-buttons-warning {
+	color: darkred;
+}
+
+
+.frontier-buttons-info {
+	color: darkgray;
+	display: inline;
+}
+
+.frontier-buttons-info-block {
+	clear: left;
+}
+pre.frontier-buttons-show-debug {
+	font-size: 0.8em;
+	line-height: 90%;
+}
+
+.frontier-buttons-settings-label {
+
+}
+
+.frontier-buttons-settings-detected {
+	/*font-weight: bold;*/
+	font-style: italic;
+}

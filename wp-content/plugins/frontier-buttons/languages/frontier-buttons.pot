@@ -1,0 +1,246 @@
+# Copyright (C) 2016 Frontier Buttons
+# This file is distributed under the same license as the Frontier Buttons package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Frontier Buttons 2.0.220.BETA\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/frontier-buttons\n"
+"POT-Creation-Date: 2016-02-27 13:15:17+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: include/frontier-buttons-defaults.php:161
+msgid "Standard Editor"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:162
+msgid "Advanced Editor"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:163
+msgid "Basic Editor"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:164
+msgid "Comment Editor"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:165
+msgid "Teeny Editor"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:200
+#: include/frontier-buttons-defaults.php:226
+msgid "Search Replace"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:201
+#: include/frontier-buttons-defaults.php:227
+msgid "Table"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:202
+#: include/frontier-buttons-defaults.php:228
+msgid "Preview"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:207
+#: include/frontier-buttons-defaults.php:233
+msgid "Code Sample"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:300
+msgid "New"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:301
+msgid "Add"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:302
+msgid "Ignore"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:303
+msgid "Delete"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:316
+msgid "Administrators"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:317
+msgid "Editors"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:318
+msgid "Authors"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:319
+msgid "Contributors"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:320
+msgid "Subscribers"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:321
+msgid "Guests"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:336
+msgid "Wordpress standard"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:392
+msgid "Editor"
+msgstr ""
+
+#: include/frontier-buttons-defaults.php:393
+msgid "Comments editor"
+msgstr ""
+
+#: include/menu-item-editors.php:189
+msgid ""
+"Drag & Drop of buttons does not work with mobile devices, you need a "
+"computer/laptop"
+msgstr ""
+
+#: include/menu-item-editors.php:190
+msgid "Save"
+msgstr ""
+
+#: include/menu-item-editors.php:191
+msgid "Reset toolbars to default"
+msgstr ""
+
+#: include/menu-item-extra-buttons.php:23
+msgid "Button id"
+msgstr ""
+
+#: include/menu-item-extra-buttons.php:24
+msgid "Status"
+msgstr ""
+
+#: include/menu-item-extra-buttons.php:25
+msgid "Detected Frontend"
+msgstr ""
+
+#: include/menu-item-extra-buttons.php:26
+msgid "Detected Backend"
+msgstr ""
+
+#: include/menu-item-main.php:11
+msgid "Full Editor"
+msgstr ""
+
+#: include/menu-item-main.php:11
+msgid "Visual simple"
+msgstr ""
+
+#: include/menu-item-main.php:11
+msgid "Quicktags"
+msgstr ""
+
+#: include/menu-item-main.php:26
+msgid "Load additional tinymce plugins"
+msgstr ""
+
+#: include/menu-item-main.php:34
+msgid "Enable editor for comments"
+msgstr ""
+
+#: include/menu-item-main.php:40
+msgid "Enable fix for comment reply"
+msgstr ""
+
+#: include/menu-item-main.php:47
+msgid "Load Prism code styling in Frontend"
+msgstr ""
+
+#: include/menu-item-main.php:53
+msgid "Editor lines for comments"
+msgstr ""
+
+#: include/menu-item-main.php:59
+msgid "Add text to buttons in settings"
+msgstr ""
+
+#: include/menu-item-main.php:65
+msgid "Force extra button check for frontend"
+msgstr ""
+
+#: include/menu-item-main.php:71
+msgid "Force extra button check for backend"
+msgstr ""
+
+#: include/menu-item-main.php:92
+msgid "Role"
+msgstr ""
+
+#: include/menu-item-main.php:92
+msgid "Capability"
+msgstr ""
+
+#: include/menu-item-main.php:181
+msgid "Wordpress version"
+msgstr ""
+
+#: include/menu-item-main.php:185
+msgid "tinymce version"
+msgstr ""
+
+#: include/menu-item-main.php:189
+msgid "Last frontend detection"
+msgstr ""
+
+#: include/menu-item-main.php:193
+msgid "Last backend detection"
+msgstr ""
+
+#: include/settings-menu.php:27
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: include/settings-menu.php:38
+msgid "Main Settings"
+msgstr ""
+
+#: include/settings-menu.php:38
+msgid "Extra Buttons"
+msgstr ""
+
+#: include/settings-menu.php:169
+msgid "Frontier Buttons Settings"
+msgstr ""
+
+#: include/settings-menu.php:241
+msgid ""
+"This is a sample of the editor, new button layout wont show until you save"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Frontier Buttons"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Frontier Buttons 2.0.220.BETA)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Frontier Buttons 2.0.220.BETA)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://wordpress.org/plugins/frontier-buttons/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Control and organize the button layout of your WP editor toolbar. Adds Table "
+"control, Search/Replace & Preview to WP Editor using tinymce standard "
+"plugins. Use visual editor for comments."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "finnj"
+msgstr ""

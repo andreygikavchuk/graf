@@ -1,0 +1,397 @@
+# Copyright (C) 2014 Frontier Buttons
+# This file is distributed under the same license as the Frontier Buttons package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Frontier Buttons 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/frontier-buttons\n"
+"POT-Creation-Date: 2016-02-27 13:15:17+00:00\n"
+"PO-Revision-Date: 2016-02-27 15:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: include/frontier-buttons-defaults.php:161
+msgid "Standard Editor"
+msgstr "Standard Editor"
+
+#: include/frontier-buttons-defaults.php:162
+msgid "Advanced Editor"
+msgstr "Avanceret Editor"
+
+#: include/frontier-buttons-defaults.php:163
+msgid "Basic Editor"
+msgstr "Basal editor"
+
+#: include/frontier-buttons-defaults.php:164
+msgid "Comment Editor"
+msgstr "Kommentar Editor"
+
+#: include/frontier-buttons-defaults.php:165
+msgid "Teeny Editor"
+msgstr "Teeny editor"
+
+#: include/frontier-buttons-defaults.php:200
+#: include/frontier-buttons-defaults.php:226
+msgid "Search Replace"
+msgstr "Søg/Erstat"
+
+#: include/frontier-buttons-defaults.php:201
+#: include/frontier-buttons-defaults.php:227
+msgid "Table"
+msgstr "Tabel"
+
+#: include/frontier-buttons-defaults.php:202
+#: include/frontier-buttons-defaults.php:228
+msgid "Preview"
+msgstr "Vis eksempel"
+
+#: include/frontier-buttons-defaults.php:207
+#: include/frontier-buttons-defaults.php:233
+msgid "Code Sample"
+msgstr "Kode eksempel"
+
+#: include/frontier-buttons-defaults.php:300
+msgid "New"
+msgstr "Ny"
+
+#: include/frontier-buttons-defaults.php:301
+msgid "Add"
+msgstr "Tilføj"
+
+#: include/frontier-buttons-defaults.php:302
+msgid "Ignore"
+msgstr "Ignorer"
+
+#: include/frontier-buttons-defaults.php:303
+msgid "Delete"
+msgstr "Slet"
+
+#: include/frontier-buttons-defaults.php:316
+msgid "Administrators"
+msgstr "Administratorer"
+
+#: include/frontier-buttons-defaults.php:317
+msgid "Editors"
+msgstr "Redaktører"
+
+#: include/frontier-buttons-defaults.php:318
+msgid "Authors"
+msgstr "Forfattere"
+
+#: include/frontier-buttons-defaults.php:319
+msgid "Contributors"
+msgstr "Bidragsydere"
+
+#: include/frontier-buttons-defaults.php:320
+msgid "Subscribers"
+msgstr "Abonnenter"
+
+#: include/frontier-buttons-defaults.php:321
+msgid "Guests"
+msgstr "Gæster"
+
+#: include/frontier-buttons-defaults.php:336
+msgid "Wordpress standard"
+msgstr "Wordpress standard"
+
+#: include/frontier-buttons-defaults.php:392
+msgid "Editor"
+msgstr "Editor"
+
+#: include/frontier-buttons-defaults.php:393
+msgid "Comments editor"
+msgstr "Kommentar editor"
+
+#: include/menu-item-editors.php:189
+msgid ""
+"Drag & Drop of buttons does not work with mobile devices, you need a "
+"computer/laptop"
+msgstr ""
+"Drag & Drop knapper virker ikke med mobile devices, du skal bruge en "
+"computer/laptop"
+
+#: include/menu-item-editors.php:190
+msgid "Save"
+msgstr "Gem"
+
+#: include/menu-item-editors.php:191
+msgid "Reset toolbars to default"
+msgstr "Reset værktøjslinier til standard"
+
+#: include/menu-item-extra-buttons.php:23
+msgid "Button id"
+msgstr "Knap id"
+
+#: include/menu-item-extra-buttons.php:24
+msgid "Status"
+msgstr "Status"
+
+#: include/menu-item-extra-buttons.php:25
+msgid "Detected Frontend"
+msgstr "Fundet i Frontend"
+
+#: include/menu-item-extra-buttons.php:26
+msgid "Detected Backend"
+msgstr "Fundet i backend"
+
+#: include/menu-item-main.php:11
+msgid "Full Editor"
+msgstr "Fuld editor"
+
+#: include/menu-item-main.php:11
+msgid "Visual simple"
+msgstr "Visuel Simpel"
+
+#: include/menu-item-main.php:11
+msgid "Quicktags"
+msgstr "Quicktags"
+
+#: include/menu-item-main.php:26
+msgid "Load additional tinymce plugins"
+msgstr "Load ekstra tinymce plugins"
+
+#: include/menu-item-main.php:34
+msgid "Enable editor for comments"
+msgstr "Aktiver editor for kommentarer"
+
+#: include/menu-item-main.php:40
+msgid "Enable fix for comment reply"
+msgstr "Aktiver fix for kommentarer"
+
+#: include/menu-item-main.php:47
+msgid "Load Prism code styling in Frontend"
+msgstr "Load Prism code styling i Frontend"
+
+#: include/menu-item-main.php:53
+msgid "Editor lines for comments"
+msgstr "Antal editor linier"
+
+#: include/menu-item-main.php:59
+msgid "Add text to buttons in settings"
+msgstr "Tilføj tekst til knapper i opsætning"
+
+#: include/menu-item-main.php:65
+msgid "Force extra button check for frontend"
+msgstr "Tving ekstra knap check for frontend"
+
+#: include/menu-item-main.php:71
+msgid "Force extra button check for backend"
+msgstr "Tving ekstra knap check for backend"
+
+#: include/menu-item-main.php:92
+msgid "Role"
+msgstr "Rolle"
+
+#: include/menu-item-main.php:92
+msgid "Capability"
+msgstr "Rettighed"
+
+#: include/menu-item-main.php:181
+msgid "Wordpress version"
+msgstr "Wordpress version"
+
+#: include/menu-item-main.php:185
+msgid "tinymce version"
+msgstr "tinymce version"
+
+#: include/menu-item-main.php:189
+msgid "Last frontend detection"
+msgstr "Sidste frontend check af nye knapper"
+
+#: include/menu-item-main.php:193
+msgid "Last backend detection"
+msgstr "Sidste backend check af nye knapper"
+
+#: include/settings-menu.php:27
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har ikke de nødvendige rettigheder til at se denne side"
+
+#: include/settings-menu.php:38
+msgid "Main Settings"
+msgstr "Hoved indstillinger"
+
+#: include/settings-menu.php:38
+msgid "Extra Buttons"
+msgstr "Ekstra knapper"
+
+#: include/settings-menu.php:169
+msgid "Frontier Buttons Settings"
+msgstr "Frontier Buttons Opsæting"
+
+#: include/settings-menu.php:241
+msgid ""
+"This is a sample of the editor, new button layout wont show until you save"
+msgstr ""
+"Dette er et eksempel på editoren, det nye knap layout vises først når "
+"ændringerne er gemt"
+
+#. Plugin Name of the plugin/theme
+msgid "Frontier Buttons"
+msgstr "Frontier Buttons"
+
+#. #-#-#-#-#  plugin.pot (Frontier Buttons 2.0.220.BETA)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Frontier Buttons 2.0.220.BETA)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://wordpress.org/plugins/frontier-buttons/"
+msgstr "http://wordpress.org/plugins/frontier-buttons/"
+
+#. Description of the plugin/theme
+msgid ""
+"Control and organize the button layout of your WP editor toolbar. Adds Table "
+"control, Search/Replace & Preview to WP Editor using tinymce standard "
+"plugins. Use visual editor for comments."
+msgstr ""
+"Tilføjer Tabel kontrol, Søg/Erstat og Vis eksempel til WP editoren. Bruger "
+"tinymce standard plugins - Fra Wordpress 4"
+
+#. Author of the plugin/theme
+msgid "finnj"
+msgstr "finnj"
+
+#~ msgid "Minimal Visual"
+#~ msgstr "Minimal Visuel"
+
+#~ msgid "Minimal-Html"
+#~ msgstr "Minimal-HTML"
+
+#~ msgid "Text Only"
+#~ msgstr "Kun tekst"
+
+#~ msgid "(Empty)"
+#~ msgstr "(Tom)"
+
+#~ msgid "Bold"
+#~ msgstr "Fed"
+
+#~ msgid "Italic"
+#~ msgstr "Kursiv"
+
+#~ msgid "Strike through"
+#~ msgstr "Overstreget"
+
+#~ msgid "Bullit list"
+#~ msgstr "Punkt liste"
+
+#~ msgid "Numeric list"
+#~ msgstr "Numerisk liste"
+
+#~ msgid "Block quote"
+#~ msgstr "Anførsels tegn"
+
+#~ msgid "Align left"
+#~ msgstr "Juster Venstre"
+
+#~ msgid "Align center"
+#~ msgstr "Juster center"
+
+#~ msgid "Align right"
+#~ msgstr "Juster højre"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "Un-Link"
+#~ msgstr "Fjern Link"
+
+#~ msgid "WP More"
+#~ msgstr "WP mere"
+
+#~ msgid "Toolbar toggle"
+#~ msgstr "Værktøjsliner vis"
+
+#~ msgid "Full Screen"
+#~ msgstr "Fuld skærm"
+
+#~ msgid "HR"
+#~ msgstr "HR"
+
+#~ msgid "Format select"
+#~ msgstr "Format"
+
+#~ msgid "Underline"
+#~ msgstr "Understreg"
+
+#~ msgid "Align justify"
+#~ msgstr "Juster"
+
+#~ msgid "Forecolor"
+#~ msgstr "Forgrunds farve"
+
+#~ msgid "Background color"
+#~ msgstr "Bagrunds farve"
+
+#~ msgid "Paste"
+#~ msgstr "Indsæt"
+
+#~ msgid "Remove format"
+#~ msgstr "Fjern format"
+
+#~ msgid "Character map"
+#~ msgstr "Symboler"
+
+#~ msgid "Outdent"
+#~ msgstr "Ryk ud"
+
+#~ msgid "Indent"
+#~ msgstr "Indryk"
+
+#~ msgid "Undo"
+#~ msgstr "Fortryd"
+
+#~ msgid "Redo"
+#~ msgstr "Gentag"
+
+#~ msgid "WP Help"
+#~ msgstr "WP hjælp"
+
+#~ msgid "Font select"
+#~ msgstr "Skrifttype"
+
+#~ msgid "Font size"
+#~ msgstr "Skrift størrelse"
+
+#, fuzzy
+#~ msgid "Style Select"
+#~ msgstr "Skrifttype"
+
+#~ msgid "Page break"
+#~ msgstr "Side skift"
+
+#~ msgid "Superscript"
+#~ msgstr "Superscript"
+
+#~ msgid "Separator"
+#~ msgstr "Separator"
+
+#~ msgid "Smileys"
+#~ msgstr "Smileys"
+
+#~ msgid "Settings saved."
+#~ msgstr "Øndringer er gemt"
+
+#~ msgid "Editor for comments only for logged in users"
+#~ msgstr "Editor for kommentarer men kun for indloggede brugere"
+
+#~ msgid "Use visual editor for comments"
+#~ msgstr "Brug visual editor for kommentarer"
+
+#~ msgid "WP editor toolbar setup"
+#~ msgstr "WP Editor værktøjlinie opsætning"
+
+#~ msgid "Toolbar"
+#~ msgstr "Værktøjslinie"
+
+#~ msgid "Full editor unused buttons"
+#~ msgstr "Fuld editor ubrugte knapper"
+
+#~ msgid "Simple editor unused buttons"
+#~ msgstr "Simpel editor ubrugte knapper"
+
+#~ msgid "Save Changes"
+#~ msgstr "Gem ændringer"
