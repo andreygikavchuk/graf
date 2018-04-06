@@ -1,0 +1,19 @@
+{
+	"name": "graf",
+	"description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+	"keywords": ["heroku", "foreman", "php", "hhvm", "apache", "apache2", "nginx"],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+    "name": "Andrey Gikavchuk",
+			"email": "andrey1371349a13@gmail.com"
+		}
+	],
+	"bin": [
+		"bin/heroku-hhvm-apache2",
+		"bin/heroku-hhvm-nginx",
+		"bin/heroku-php-apache2",
+		"bin/heroku-php-nginx"
+	]
+}
